@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    /* background-color: rgba(83, 0, 0, 0.775); */
+    background: rgb(173,249,133);
+    background: radial-gradient(circle, rgba(173,249,133,1) 0%, rgba(66,142,232,1) 100%);
+}
+#divBoto{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#sortir{
+    justify-content: start;
+    border: 2px solid #fff;
+    color: white;
+    text-align:center;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 13px;
+    background-color:#FF5722;
+    box-shadow: 0 5px 5px #000;
+}
+.myChips{
+    display: flex;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 2%;
+    justify-content: end;
+    font-weight:lighter;
+}
+#chips{
+    font-weight: bold;
+    margin-left: 2%;
+    justify-items: start;
+}
+.addChips{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 2%;
+    justify-content: end;
+}
+.addChips>form>input{
+    height: 30px;
+    width: 80px;
+}
+.addChips>form>button{
+    border: 2px solid #fff;
+    color: white;
+    border-radius:0.15em;
+    height: 30px;
+    text-align:center;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 18px;
+    background-color:#FF5722;
+    box-shadow: 0 5px 5px #000;
+
+}
+.addChips>button:hover{
+    border-color: rgb(0, 0, 0);
+}
+.tituls{
+    font-weight: lighter;
+    font-size: medium;
+}
+.inputs{
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    font-size: 14px;
+    border: 2px solid #fff;
+    background-color: #ff6a3d;
+    color: #fff;
+    box-shadow: 0 5px 5px #000;
+}
+
+/* Seccio Aposta */
+.apostar{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* Seccio Girar */
+#divGirar{
+    margin-top: 15%;
+    height: 100px;
+}
+#result{
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+#botoGirar{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color: #FF5722;
+    color: #fff;
+    box-shadow: 0 5px 20px #000;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+#botoGirar:hover {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    background-color: #d44419;
+
+}
+#botoGirar:disabled{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border: 4px solid #6f6f6f;
+    background-color: #c18a8a;
+    color: #666666;
+}
+
+.divResult{
+    height: 10px;
+}
+
+/* Seccio Test */
+.divTest{
+    margin-top: 10%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 10%;
+    
+}
+.divTest>h1{
+    font-weight: bold;
+    margin-right: 1%;
+}
